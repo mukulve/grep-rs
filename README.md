@@ -5,7 +5,7 @@ Todos
 
 <pre>
   <code>
-    $ ./fuzzyrs 
+    $ cargo run --release -- --search YourSearchTerm --directory /
     
     error: the following required arguments were not provided:
     --search <SEARCH>
