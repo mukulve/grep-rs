@@ -3,6 +3,7 @@
 Todos
 - [ ] Add Regex
 
+Usage
 <pre>
   <code>
 $ cargo run --release -- --search YourSearchTerm --directory /
@@ -16,3 +17,8 @@ $ cargo run --release -- --search YourSearchTerm --directory /
     For more information, try '--help'.
   </code>
 </pre>
+
+grep-rs vs grep
+| Grep-rs  | Grep | Difference |
+| ------------- | ------------- | ------------- |
+| 2.472s  | 397.34ms  | 144.609% |
