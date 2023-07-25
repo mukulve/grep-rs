@@ -9,3 +9,4 @@ edition = "2021"
 clap = { version = "4.3.11", features = ["derive"] }
 rayon = "1.7.0"
 walkdir = "2.3.3"
+regex = "1.9.1"

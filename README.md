@@ -1,9 +1,11 @@
-# An extremely fast grep clone written in rust 
+# An extremely fast grep clone written in rust
 
 Todos
-- [ ] Add Regex
+
+- [x] Add Regex
 
 Usage
+
 <pre>
   <code>
 $ cargo run --release -- --search YourSearchTerm --directory /
@@ -19,6 +21,6 @@ $ cargo run --release -- --search YourSearchTerm --directory /
 </pre>
 
 grep-rs vs grep
-| Grep-rs  | Grep | Difference |
+| Grep-rs | Grep | Difference |
 | ------------- | ------------- | ------------- |
-| 2.472s  | 397.34ms  | 144.609% |
+| 2.472s | 397.34ms | 144.609% |
