@@ -21,6 +21,6 @@ $ cargo run --release -- --search YourSearchTerm --directory /
 </pre>
 
 grep-rs vs grep
-| Grep-rs | Grep | Difference |
+| Grep | Grep-rs | Difference |
 | ------------- | ------------- | ------------- |
 | 2.472s | 397.34ms | 144.609% |
